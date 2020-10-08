@@ -3,7 +3,7 @@ import Styled from 'styled-components';
 const ContainerProfile = Styled.nav`
     box-sizing: border-box;
     border: 5px solid black;
-    width: 800px;
+    width: 420px;
     height: 400px;
     margin: 14% auto;
     padding: 20px ;

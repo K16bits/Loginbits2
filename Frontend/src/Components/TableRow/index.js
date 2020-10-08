@@ -1,4 +1,5 @@
 import Styled from 'styled-components'
-const TableRow = Styled.tr``;
+const TableRow = Styled.tr`
+`;
 
 export default TableRow;

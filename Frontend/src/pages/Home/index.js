@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import Container from '../../Components/Container/Container'
-import Input from '../../Components/Input/Input'
-import Button from '../../Components/Button/Button'
+import React, { useState} from 'react';
+import {Link} from 'react-router-dom';
+import Container from '../../Components/Container';
+import Input from '../../Components/Input';
+import Button from '../../Components/Button';
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           onChange = { e => setSenha(e.target.value)}
         ></Input>
         <Button type="submit">Entrar</Button>
-        <span>Criar conta</span>
+        <Link to="/profile">Listar</Link>
       </form>
       
     </Container>

@@ -1,11 +1,13 @@
 import React from 'react'
-import ContainerProfile from '../../Components/Container-profile/ContainerProfile'
-import Table from '../../Components/Table/Table'
-import TableHead from '../../Components/TableHead/TableHead'
-import TableRow from '../../Components/TableRow/TableRow'
+import ContainerProfile from '../../Components/Container-profile'
+import Table from '../../Components/Table'
+import TableHead from '../../Components/TableHead'
+import TableRow from '../../Components/TableRow'
+
 
 export default function Profile(){
     return(
+        
         <ContainerProfile>
             <Table>
                 <TableRow>
@@ -22,5 +24,6 @@ export default function Profile(){
                 </TableRow>
             </Table>
         </ContainerProfile>
+       
     )
 }
