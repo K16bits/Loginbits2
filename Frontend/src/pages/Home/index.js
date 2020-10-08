@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Container from '../../Components/Container'
-import Input from '../../Components/Input'
-import Button from '../../Components/Button'
+import Container from '../../Components/Container/Container'
+import Input from '../../Components/Input/Input'
+import Button from '../../Components/Button/Button'
 
 
 export default function Home() {
