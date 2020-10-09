@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.21.6",
-    "sqlite3": "^5.0.0"
+    "mysql": "^2.18.1"
   }
 }
