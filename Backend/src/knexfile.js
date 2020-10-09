@@ -3,14 +3,18 @@
 module.exports = {
 
   development: {
-    client: 'sqlite3',
+    client: 'mysql',
     connection: {
-      filename: './Data./user.sqlite3'
+      host: 'localhost',
+      user: 'root',
+      password: '',
+      database: 'test'
     },
+
     migrations: {
-      directory: './Data/migrations'
-    },
-    useNullAsDefault: true,
+      directory : './Data/migrations'
+    }
+
   },
 
   staging: {
