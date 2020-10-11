@@ -27,6 +27,12 @@ module.exports = {
             console.log(erro);
         }
 
+    },
+    async deletar(req,res){
+        const query = conection("users");
+        const {id}= req.params;
+        //console.log(id);
+        await query.where('id',id).delete();
+        return res.status(204).send();
     }
-
 }
